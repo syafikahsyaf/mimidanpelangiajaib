@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("MIMI.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 900px;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+.header h1 {
+  font-size: 3em;
+  color: #f15b5b; /* Soft red for a fun look */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Synopsis */
+.synopsis {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.synopsis h2 {
+  font-size: 2em;
+  color: #f0a500; /* Bright orange for excitement */
+  margin-bottom: 10px;
+}
+
+.synopsis p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Navigation Menu */
+.language-selection {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.language-selection button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #70b7ff; /* Bright blue for vibrancy */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.language-selection button:hover {
+  background-color: #4e8bcc; /* Slightly darker blue on hover */
+}
+
+.language-selection button:active {
+  transform: scale(0.98);
+}

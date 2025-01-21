@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background: url("MIMI.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background: #8ecae6;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #023047;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Synopsis Section */
+.content .synopsis {
+  margin: 20px 0;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: #7b2cbf;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #333;
+  background: #edf2f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Language Selection Footer */
+.language-selection {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.language-selection h3 {
+  font-size: 1.5rem;
+  color: #ff6700;
+  margin-bottom: 15px;
+}
+
+.language-btn {
+  background: #fb8500;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.language-btn:hover {
+  background: #d00000;
+  transform: scale(1.05);
+}
+
+/* Credits Section */
+.credits {
+  margin-top: 20px;
+  text-align: center;
+  color: #023047;
+}
+
+.credits p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .language-btn {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
